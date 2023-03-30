@@ -1,0 +1,65 @@
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  background-color: #150b3e;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+
+.profile-container {
+  display: flex;
+}
+
+.profile-letter {
+  background-color: #c7d2fe;
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.letter {
+  color: #7c3aed;
+}
+
+.profile-name {
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance-text {
+  color: #d4d2db;
+}
+
+.balance-and-rs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rupees-count {
+  color: #ffffff;
+}
+
+.rupees-text {
+  color: #d4d2db;
+}
+
+.withdraw-text {
+  color: #ffffff;
+}
+
+.sum-text {
+  color: #d4d2db;
+}

@@ -1,0 +1,12 @@
+.list-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #585076;
+  color: White;
+  text-align: center;
+  font-family: 'Roboto';
+}
