@@ -1,65 +1,26 @@
-.container {
-  background-color: #ffffff;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.denomination-item {
+  list-style-type: none;
+  width: 48%;
+  margin-bottom: 16px;
 }
 
-.app-container {
-  background-color: #150b3e;
-  padding: 20px;
-  border-radius: 10px;
+.denomination-button {
+  background-color: #382f5a;
+  color: #d4d2db;
   font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  outline: none;
 }
 
-.profile-container {
-  display: flex;
-}
-
-.profile-letter {
-  background-color: #c7d2fe;
-  border-radius: 30px;
-  text-align: center;
-  padding: 10px;
-}
-
-.letter {
-  color: #7c3aed;
-}
-
-.profile-name {
-  color: #ffffff;
-  margin-left: 10px;
-}
-
-.balance-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.balance-text {
-  color: #d4d2db;
-}
-
-.balance-and-rs-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.rupees-count {
-  color: #ffffff;
-}
-
-.rupees-text {
-  color: #d4d2db;
-}
-
-.withdraw-text {
-  color: #ffffff;
-}
-
-.sum-text {
-  color: #d4d2db;
+@media screen and (min-width: 768px) {
+  .denomination-button {
+    font-size: 24px;
+  }
 }
